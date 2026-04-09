@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    
+    
+}
+header{
+    background-image: url(/assets/image-header.png);
+    min-height: 150vh;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navStyle{
+    display: flex;
+    justify-content:space-between;
+    padding: 22px;
+}
+
+.firstPage{
+   text-align: center; 
+   display: flex;
+   justify-content: center;
+}
+.imgDeux{
+    background-image: url(/assets/section-img.png);
+    background-size: cover;
+    min-height: 150vh;
+    background-repeat: no-repeat;
+}
+.placementDeProduit{
+    background-image: url(/assets/banniere-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:50vh;
+    background-position: center;
+   
+
+}
+.coeur{
+    background-color: black;
+    min-height: 105vh;
+    color: white;
+}
+.lineUp{
+    background-color: black;
+    background-size:;
+    color: white;
+    
+}
+.span{
+    size: 50px;
+}
+.groupeUn{
+   text-align: center; 
+   display: flex;
+   justify-content: center;
+   flex-direction: column;  
+}
+
+.logoProduit{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 45px;
+     
+
+}
+.placementDeProduit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact{
+    background-color: black;
+    color: white;
+}
+.Billetterie{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    width:20px;
+}
