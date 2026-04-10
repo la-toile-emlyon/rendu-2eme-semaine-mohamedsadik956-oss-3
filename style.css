@@ -4,7 +4,7 @@
     
 }
 header{
-    background-image: url(/assets/image-header.png);
+    background-image: url(assets/image-header.png);
     min-height: 150vh;
     color:white;
     background-repeat: no-repeat;
@@ -30,18 +30,18 @@ nav a{
    justify-content: center;
 }
 .imgDeux{
-    background-image: url(/assets/section-img.png);
+    background-image: url(assets/section-img.png);
     background-size: cover;
     min-height: 150vh;
     background-repeat: no-repeat;
 }
 .placementDeProduit{
-    background-image: url(/assets/banniere-logo.png);
+    background-image: url(assets/banniere-logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height:50vh;
     background-position: center;
-   
+
 
 }
 .coeur{
