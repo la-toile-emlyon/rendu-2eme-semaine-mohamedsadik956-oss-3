@@ -69,6 +69,9 @@ nav a{
   font-size: 16px;
   letter-spacing: 1px;
 }
+.topLine{
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
 .BilletterieDEUX {
   display: inline-block;
   margin-top: 40px;
