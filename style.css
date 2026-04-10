@@ -1,7 +1,6 @@
 *{
     margin: 0;
-
-
+    
 }
 header{
     background-image: url(assets/image-header.png);
@@ -21,8 +20,12 @@ nav a{
 .navStyle{
     display: flex;
     justify-content:space-between;
-    padding: 30px;
+    padding: 50px;
 }
+.navStyle a:hover{
+    text-decoration: underline;
+}
+
 
 
 .imgDeux{
@@ -79,14 +82,18 @@ nav a{
   background-color: whitesmoke;
   color: black;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
+  border: solid white 1px;
+  transition: 0.3s;
+  
 }
 
 .BilletterieDEUX:hover {
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 .groupeUn{
     display: flex;
@@ -146,6 +153,7 @@ nav a{
 body{
     font-family: 'DM Sans', sans-serif; 
     background-color: black;
+    color: white;
 }
 .firstPage h1{
     font-size: 53px;
@@ -207,3 +215,169 @@ br{
     color: white;
 
 }
+.form1{
+  background-color: black;
+  padding: 48px 20px 80px;
+  box-sizing: border-box;
+}
+.form1 h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: white;
+  margin: 0 0 20px;
+}
+.form1 p{
+  text-align: left;
+  font-size: 13px;
+  max-width: 480px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+.linkMail{
+  color: lightblue;
+  text-decoration: none;
+}
+.linkMail:hover{
+  text-decoration: underline;
+}
+.form1 form{
+  max-width: 480px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.fullName_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.mail_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.phone_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.message_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.fullName_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.mail_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.phone_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.message_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+#fullName_ID{
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#email_ID{
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#phone_ID {
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#fullName_ID::placeholder{
+  color: #666666;
+}
+#email_ID::placeholder{
+  color: #666666;
+}
+#phone_ID::placeholder{
+  color: #666666;
+}
+#message_ID {
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  padding: 9px 12px;
+  resize: vertical;
+  min-height: 120px;
+}
+#message_ID::placeholder{
+  color: #666666;
+}
+.form1 button[type="submit"]{
+  display: block;
+  margin: 20px auto 0;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.form1 button[type="submit"]:hover{
+  background: black;
+  color: white;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 70px;
+
+
+}
+.newLetter{
+    display: flex;
+    flex-direction: row;
+}
+.footerLabel{
+display: flex;
+flex-direction: column;
+}
+.emailFooter{
+    font-size: 20px;
+    color: lightskyblue;
+    text-decoration: none;
+}
+.emailFooter:hover{
+    text-decoration: underline;
+}
+
+
+.footer1 button[type="submit"]{
+
+
+}
+
