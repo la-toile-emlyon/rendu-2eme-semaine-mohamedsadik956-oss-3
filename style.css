@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    
-    
+
+
 }
 header{
     background-image: url(assets/image-header.png);
@@ -16,7 +16,7 @@ nav a{
     margin-left: 20px;
     text-decoration: none;
     color: white;
-    
+
 }
 .navStyle{
     display: flex;
@@ -47,7 +47,7 @@ nav a{
     margin: 80px auto;
     text-align: center;
 }
-    
+
 
 
 .lineUp h2{
@@ -88,15 +88,14 @@ nav a{
 .BilletterieDEUX:hover {
   background-color: white;
 }
-
 .groupeUn{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 140vh;
-    
-   
+
+
 }
 
 .logoProduit{
@@ -104,7 +103,7 @@ nav a{
     justify-content: center;
     flex-direction: row;
     gap: 70px;
-     
+
 
 }
 .placementDeProduit{
@@ -153,7 +152,7 @@ body{
     font-weight: 500;
     margin: 0;
     text-transform: uppercase;
-    
+
 
 }
 .firstPage span{
@@ -170,7 +169,7 @@ body{
     line-height: 1.4;
 }
 br{
-  
+
     font-size: 45px;
     font-weight: 700;
     margin-top: 30px;
@@ -189,8 +188,6 @@ br{
 .plongez{
     text-align: center;
 }
-
-
 .container{
     max-width: 1303px;
     margin: 400px auto;
